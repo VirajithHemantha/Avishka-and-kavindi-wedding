@@ -80,7 +80,33 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
           </motion.div>
         </div>
 
-
+        {/* Right Side: Image */}
+        <div className="lg:w-1/2 relative w-full flex justify-center lg:justify-end mt-12 lg:mt-0">
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
+            className="w-full max-w-[400px] relative"
+          >
+            {/* Elegant Arched Frame */}
+            <div className="aspect-[3/4] w-full rounded-t-[200px] rounded-b-2xl overflow-hidden border-8 border-white shadow-[0_20px_50px_rgba(201,169,110,0.25)] relative z-10 bg-white">
+              <img
+                src="/cand.jpg"
+                alt="Celebration of Love"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
+              />
+              <div className="absolute inset-0 ring-1 ring-inset ring-brand-plum/20 rounded-t-[200px] rounded-b-2xl pointer-events-none"></div>
+            </div>
+            
+            {/* Decorative Offset Border */}
+            <div className="absolute -top-5 -right-5 w-full h-full border-[1.5px] border-brand-plum/30 rounded-t-[200px] rounded-b-2xl z-0 pointer-events-none"></div>
+            
+            {/* Ambient Glows */}
+            <div className="absolute top-1/4 -left-10 w-32 h-32 bg-brand-lavender/40 rounded-full blur-2xl -z-10"></div>
+            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-brand-rose/40 rounded-full blur-2xl -z-10"></div>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
