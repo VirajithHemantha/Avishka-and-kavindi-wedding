@@ -131,6 +131,21 @@ export function InvitationContent({
           <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.4em] font-sans text-stone-400 font-semibold block mb-8">
             January 20, 2027
           </span>
+          
+          <div className="max-w-md mx-auto pt-8 border-t border-brand-lavender/40 px-4">
+            <p className="text-stone-500 text-[11px] sm:text-xs font-sans tracking-[0.15em] uppercase">
+              Want a beautiful wedding website like this? <br className="sm:hidden" />
+              Create yours with{' '}
+              <a 
+                target="_blank" 
+                rel="noreferrer" 
+                className="text-brand-plum font-bold hover:text-stone-800 transition-colors duration-300 underline underline-offset-4 decoration-brand-plum/40 hover:decoration-stone-800/40" 
+                href="https://wa.me/94707819074"
+              >
+                Invitemint
+              </a>
+            </p>
+          </div>
         </footer>
       </DeferredMount>
     </motion.div>

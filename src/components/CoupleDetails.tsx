@@ -50,7 +50,7 @@ export const CoupleDetails: React.FC = () => {
             <span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
             <h3 className="text-4xl sm:text-5xl font-names text-stone-800 mb-2 drop-shadow-sm">Avishka</h3>
             <p className="text-stone-700 font-century text-xs mb-2"></p>
-            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Son of Mr. G Anura Wasantha Kumara & Mrs. Y.R Suranga Rukmali</p>
+            <p className="text-stone-800 font-serif italic text-base sm:text-lg drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">Son of Mr. G Anura Wasantha Kumara & Mrs. Y.R Suranga Rukmali</p>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
@@ -72,7 +72,7 @@ export const CoupleDetails: React.FC = () => {
             <span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
             <h3 className="text-4xl sm:text-5xl font-names text-stone-800 mb-2 drop-shadow-sm">Kavindi</h3>
             <p className="text-stone-700 font-century text-xs mb-2"></p>
-            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Daughter of Mr. K.D.Ajith Pushpa Kumara & Mrs. M.A Orin Dilrukshi</p>
+            <p className="text-stone-800 font-serif italic text-base sm:text-lg drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">Daughter of Mr. K.D.Ajith Pushpa Kumara & Mrs. M.A Orin Dilrukshi</p>
           </div>
           <div className="hidden lg:flex justify-start mt-8">
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
